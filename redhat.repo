@@ -1,0 +1,17 @@
+[BaseOS]
+name=baseos
+baseurl=file:///share1/repos/rhel8/rhel-8-for-x86_64-baseos-rpms
+enabled=1
+gpgkey=file:///share1/repos/rhel8/RPM-GPG-KEY-redhat-release
+gpgcheck=1
+
+
+
+[AppStream]
+name=appstream
+baseurl=file:///share1/repos/rhel8/rhel-8-for-x86_64-appstream-rpms
+enabled=1
+gpgkey=file:///share1/repos/rhel8/RPM-GPG-KEY-redhat-release
+gpgcheck=1
+
+

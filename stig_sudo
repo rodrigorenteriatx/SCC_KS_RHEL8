@@ -1,0 +1,8 @@
+#V-237642 - RHEL 8 must use the invoking user's password for privilege escalation when using "sudo".
+
+Defaults !targetpw
+Defaults !rootpw
+Defaults !runaspw
+
+#V-237643 - RHEL 8 must require re-authentication when using the "sudo" command.
+Defaults timestamp_timeout=0

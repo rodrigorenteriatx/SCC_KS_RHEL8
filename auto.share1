@@ -1,0 +1,4 @@
+repos		-fstype=nfs,noexec,nosuid,nodev	10.18.10.100:/EXPORT/repos
+install		-fstype=nfs,noexec,nosuid,nodev 10.18.10.100:/EXPORT/FILES
+scap		-fstype=nfs,noexec,nosuid,nodev 10.18.10.100:/EXPORT/FILES/SCAP
+SCANS		-fstype=nfs,noexec,nosuid,nodev 10.18.10.100:/EXPORT/REMOTE_SCANS

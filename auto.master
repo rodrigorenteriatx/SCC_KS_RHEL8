@@ -1,0 +1,7 @@
+/misc	/etc/auto.misc
+/net	-hosts
+
+/share1	/etc/auto.share1
+
++dir:/etc/auto.master.d
++auto.master

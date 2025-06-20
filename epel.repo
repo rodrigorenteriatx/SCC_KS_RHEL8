@@ -1,0 +1,7 @@
+[EPEL]
+name=epel
+baseurl=file:///share1/repos/epel/epel
+enabled=1
+#gpgkey=file:///share1/repos/rhel8/RPM-GPG-KEY-redhat-release
+gpgcheck=0
+
